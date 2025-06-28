@@ -45,11 +45,11 @@ body {
 
 @keyframes animate {
     0% {
-        transform: translateY(100vh)scale(0)rotateZ(0deg);
+        transform: translateY(-10vh)scale(0)rotateZ(0deg);
     }
 
     100% {
-        transform: translateY(-10vh)scale(1)rotateZ(calc(var(--i)*30deg));
+        transform: translateY(100vh)scale(1)rotateZ(calc(var(--i)*30deg));
     }
 }
 
@@ -84,4 +84,10 @@ img{
 li{
     list-style: none;
     margin-bottom: 30px;
+}
+
+.texto{
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
 }
